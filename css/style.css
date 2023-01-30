@@ -114,6 +114,10 @@ button.secondary {
     border-bottom: 1px solid gray;
 }
 
+.small-col h3 {
+    margin-bottom: 20px;
+}
+
 /*
 ------
 Header
@@ -297,4 +301,15 @@ div.first-group span:last-child {
 
 .small-container .right-contents > *{
     margin-bottom: 30px;
+}
+
+/* Fourth Section */
+
+.fourth-section .small-container .three-col-layout {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fourth-section .small-container .three-col-layout .small-col {
+    width: calc(100% / 3 - 20px);
 }
