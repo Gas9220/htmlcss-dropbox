@@ -305,6 +305,10 @@ div.first-group span:last-child {
 
 /* Fourth Section */
 
+.fourth-section {
+    margin: 100px 0;
+}
+
 .fourth-section .small-container .three-col-layout {
     flex-wrap: wrap;
     justify-content: center;
@@ -312,4 +316,16 @@ div.first-group span:last-child {
 
 .fourth-section .small-container .three-col-layout .small-col {
     width: calc(100% / 3 - 20px);
+}
+
+/* Fifth Section */
+
+.fifth-section {
+    margin: 150px 0;
+}
+
+.fifth-section .small-container h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    width: 50%;
 }
