@@ -74,12 +74,19 @@ button {
     padding: 5px 15px;
 }
 
+button.secondary {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 .big-container {
     width: 80%;
 }
 
 .small-container {
     width: 70%;
+    margin: 0 auto;
 }
 
 .small-container .three-col-layout {
@@ -267,4 +274,27 @@ div.first-group span:last-child {
 
 .full-col .right-contents {
     width: 30%;
+}
+
+/* Third Section */
+
+.third-section {
+    margin: 100px 0;
+}
+
+.third-section .small-container {
+    align-items: center;
+}
+
+.small-container .left-contents {
+    width: 60%;
+}
+
+.small-container .right-contents {
+    width: 40%;
+    padding: 20px;
+}
+
+.small-container .right-contents > *{
+    margin-bottom: 30px;
 }
