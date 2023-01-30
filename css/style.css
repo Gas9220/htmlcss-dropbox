@@ -32,13 +32,18 @@ Debug
     background-color: blueviolet;
 }
 
-.debug section.first-section {
+/* .debug section.first-section {
     height: 600px;
 }
 
 .debug section.first-section div.big-container {
     height: 500px;
     background-color: yellowgreen;
+} */
+
+.debug section.second-section .small-container {
+    height: 1000px;
+    background-color: red;
 }
 
 /*
@@ -59,14 +64,6 @@ ul {
     list-style-type: none;
 }
 
-.big-container {
-    width: 80%;
-}
-
-.centered {
-    margin: 0 auto;
-}
-
 /* Stile provvisorio, da rendere più riutilizzabile */
 button {
     background: none;
@@ -77,8 +74,37 @@ button {
     padding: 5px 15px;
 }
 
+.big-container {
+    width: 80%;
+}
+
+.small-container {
+    width: 70%;
+}
+
+.small-container .three-col-layout {
+    gap: 20px;
+}
+
+.col-header {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
 .full-width {
     width: 100%;
+}
+
+.bordered {
+    border: 1px solid gray;
+}
+
+.bordered-bottom {
+    border-bottom: 1px solid gray;
 }
 
 /*
@@ -120,6 +146,7 @@ Main
 ------
 */
 
+/* First Section  */
 section.first-section {
     background-color: #B4D0E7;
     padding-top: 50px;
@@ -159,4 +186,85 @@ section.first-section div.big-container h1 {
 
 .first-section-inner-container-right {
     width: 60%;
+}
+
+/* Second Section */
+section.second-section .small-container {
+    margin-top: 100px;
+}
+
+section.second-section .small-container h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.second-section .small-container label {
+    margin-right: 30px;
+}
+
+.small-container .three-col-layout {
+    margin-top: 40px;
+}
+
+.three-col-layout .small-col {
+    width: calc(100% / 3);
+}
+
+div.col-content {
+    padding: 10px;
+}
+
+div.col-content > div {
+    margin-bottom: 20px;
+}
+
+div.col-content > div > * {
+    display: block;
+}
+
+.col-content > div[class] {
+    margin-bottom: 40px;
+}
+
+.col-content > div > * {
+    margin-bottom: 10px;
+}
+
+.fourth-group i {
+    color: blue;
+}
+
+.third-group hr {
+    width: 20%;
+    margin: 20px 0;
+}
+
+.third-group button {
+    width: 100%;
+    margin: 30px auto;
+}
+
+div.first-group span:last-child {
+    color: gray;
+}
+
+.full-col {
+    margin-top: 20px;
+}
+
+.full-col-contents {
+    padding: 20px;
+    gap: 20px;
+}
+
+.full-col .left-contents {
+    width: 70%;
+}
+
+.full-col .left-contents > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.full-col .right-contents {
+    width: 30%;
 }
