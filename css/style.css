@@ -32,6 +32,15 @@ Debug
     background-color: blueviolet;
 }
 
+.debug section.first-section {
+    height: 600px;
+}
+
+.debug section.first-section div.big-container {
+    height: 500px;
+    background-color: yellowgreen;
+}
+
 /*
 ------
 Common
@@ -50,6 +59,14 @@ ul {
     list-style-type: none;
 }
 
+.big-container {
+    width: 80%;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
 /* Stile provvisorio, da rendere più riutilizzabile */
 button {
     background: none;
@@ -58,6 +75,10 @@ button {
     background-color: rgb(0, 97, 255);
     color: white;
     padding: 5px 15px;
+}
+
+.full-width {
+    width: 100%;
 }
 
 /*
@@ -89,6 +110,53 @@ header nav ul li a {
     color: inherit;
 }
 
-header nav ul li:nth-child(3) {
-    margin-right: 15px;
+header nav .nav-right-links ul li:nth-child(3) {
+    margin-right: 12px;
+}
+
+/*
+------
+Main
+------
+*/
+
+section.first-section {
+    background-color: #B4D0E7;
+    padding-top: 50px;
+}
+
+section.first-section div.big-container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.first-section-inner-container {
+    position: relative;
+    bottom: -70px;
+    padding-bottom: 10px;
+}
+
+.first-section-inner-container-left {
+    width: 40%;
+}
+
+.first-section-inner-container-left i {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.first-section-inner-container-left > * {
+    display: block;
+}
+
+.first-section-inner-container-left button {
+    margin-bottom: 20px;
+}
+
+.first-section-inner-container-left > *:not(button) {
+    margin-bottom: 40px;
+}
+
+.first-section-inner-container-right {
+    width: 60%;
 }
