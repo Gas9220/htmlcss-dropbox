@@ -158,12 +158,26 @@ header {
 header nav ul li {
     margin-right: 30px;
     align-self: center;
+    vertical-align: middle;
+}
 
+header nav ul li > *:a {
+    line-height: 80px;
+}
+
+header nav .nav-left-links ul > li:hover:not(:first-child) {
+    border-bottom: 2px solid black;
+}
+
+header nav .nav-right-links ul > li:hover:not(:last-child) {
+    border-bottom: 2px solid black;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: inherit;
+    height: 80px;
+    line-height: 80px;
 }
 
 header nav .nav-right-links ul li:nth-child(3) {
