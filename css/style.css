@@ -405,3 +405,28 @@ div.first-group span:last-child {
 .partner-logo.clear {
     background-color: #FFD830;
 }
+
+/* Seventh section */
+
+.seventh-section {
+    background-color: #B4D0E7;
+    padding: 100px 0;
+}
+
+.seventh-section h3 {
+    color: #61082B;
+    width: 60%;
+    font-size: 40px;
+    align-self: start;
+
+}
+
+.seventh-section .small-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seventh-section .small-container button {
+    align-self: start;
+    margin-top: 10px;
+}
