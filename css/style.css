@@ -291,13 +291,9 @@ div.first-group span:last-child {
     margin-top: 20px;
 }
 
-.full-col-contents {
-    padding: 20px;
-    gap: 20px;
-}
-
 .full-col .left-contents {
-    width: 70%;
+    width: 80%;
+    padding: 20px;
 }
 
 .full-col .left-contents > *:not(:last-child) {
@@ -305,7 +301,9 @@ div.first-group span:last-child {
 }
 
 .full-col .right-contents {
-    width: 30%;
+    padding: 20px;
+    width: 20%;
+    text-align: right;
 }
 
 /* Third Section */
