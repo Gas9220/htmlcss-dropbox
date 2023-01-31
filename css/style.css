@@ -450,3 +450,43 @@ div.first-group span:last-child {
     margin-right: 30px;
 }
 
+/* Footer */
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+footer .big-container {
+    margin: 30px auto;
+    padding: 60px;
+}
+
+.footer-top {
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+footer .big-container {
+    margin-bottom: 0;
+}
+
+footer .big-container .footer-top ul li:first-child {
+    margin-bottom: 15px;
+}
+
+footer .big-container hr {
+    width: 10%;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-bottom i:first-child {
+    margin-right: 10px;
+}
+
+.footer-bottom i:last-child {
+    vertical-align: middle;
+}
