@@ -274,6 +274,10 @@ div.col-content > div > * {
     color: blue;
 }
 
+.second-group {
+    min-height: 150px;
+}
+
 .third-group hr {
     width: 20%;
     margin: 20px 0;
