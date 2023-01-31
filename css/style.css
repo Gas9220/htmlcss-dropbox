@@ -430,3 +430,23 @@ div.first-group span:last-child {
     align-self: start;
     margin-top: 10px;
 }
+
+/* FAQ Section */
+
+.faq-section {
+    margin: 100px 0;
+}
+
+.faq-section h3 {
+    font-size: 35px;
+}
+
+.faq-section hr {
+    margin: 40px 0;
+}
+
+.question {
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
