@@ -81,11 +81,11 @@ button.secondary {
 }
 
 .big-container {
-    width: 80%;
+     max-width: 1180px;
 }
 
 .small-container {
-    width: 70%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -321,11 +321,87 @@ div.first-group span:last-child {
 /* Fifth Section */
 
 .fifth-section {
-    margin: 150px 0;
+    margin: 100px 0;
 }
 
 .fifth-section .small-container h2 {
     font-size: 30px;
     margin-bottom: 30px;
     width: 50%;
+}
+
+/* Sixth Section */
+
+.square .box {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    flex-wrap: wrap;
+}
+
+.partner-logo {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.partner-logo img:not(.middle-logo) {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.partner-logo.middle > * {
+    margin-bottom: 30px;
+}
+
+.partner-logo.middle img {
+    width: 50%;
+}
+
+.partner-logo.middle hr {
+    width: 20%;
+}
+
+.partner-logo.middle {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    overflow: auto;
+    background-color: #F5F5F5;
+}
+
+.partner-logo.design {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.partner-logo.arizona {
+    background-color: #61082B;
+}
+
+.partner-logo.florida {
+    background-color: #0093CE;
+}
+
+.partner-logo.topps {
+    background-color: #FF1C1C;
+}
+
+.partner-logo.bicycle {
+    background-color: #D5001F;
+}
+
+.partner-logo.hearst {
+    background-color: #B4D0E7;
+}
+
+.partner-logo.lonely {
+    background-color: #0D2481;
+}
+
+.partner-logo.clear {
+    background-color: #FFD830;
 }
